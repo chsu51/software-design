@@ -2,6 +2,6 @@
 
 <% for event in @events %>
     <p> 
-     <a href="/"><%= event[:title]%></a>
+     <a href="/events/<% event[:id]%>"><%= event[:title]%></a>
     </p>
 <% end %>   
